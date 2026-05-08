@@ -4,7 +4,7 @@ import * as SecureStore from 'expo-secure-store';
 // ─── Configuration ─────────────────────────────────────────────────────────────
 // NOTE: Change this to your machine's local IP (e.g., 192.168.1.x) to test on a physical device.
 // For Android Emulator, use 10.0.2.2.
-const DEV_MACHINE_IP = '10.39.197.80'; 
+const DEV_MACHINE_IP = '10.39.197.139'; 
 const API_BASE_URL = `http://${DEV_MACHINE_IP}:3000/api/v1`;
 
 // ─── Token helpers ─────────────────────────────────────────────────────────────
