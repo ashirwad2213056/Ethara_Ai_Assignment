@@ -4,7 +4,7 @@ import * as SecureStore from 'expo-secure-store';
 // ─── Configuration ─────────────────────────────────────────────────────────────
 // NOTE: Change this to your machine's local IP (e.g., 192.168.1.x) to test on a physical device.
 // For Android Emulator, use 10.0.2.2.
-const API_BASE_URL = 'https://spendwise-api-production-9346.up.railway.app/api/v1';
+const API_BASE_URL = 'https://spendwise.up.railway.app/api/v1';
 
 // ─── Token helpers ─────────────────────────────────────────────────────────────
 export const saveTokens = async (accessToken, refreshToken) => {
