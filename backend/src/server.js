@@ -5,7 +5,7 @@ import prisma from './config/db.js';
 import { cleanupDuplicateCategories } from './utils/cleanup.js';
 
 // const PORT = parseInt(env.PORT || process.env.PORT || '3000', 10);
-const PORT = parseInt(process.env.PORT || env.PORT || '3000', 10);
+const PORT = parseInt(process.env.PORT || '3000', 10);
 
 async function main() {
   // Verify DB connection before accepting traffic
